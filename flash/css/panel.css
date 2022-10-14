@@ -1,0 +1,52 @@
+@import url(reset.css);
+
+main {
+    display: flex;
+    flex-direction: column;
+}
+
+#barra-lateral {
+    position: fixed;
+    width: 25%;
+    height: 100%;
+    border-right: 1px solid lightgray;
+    display: flex;
+    flex-direction: column;
+}
+
+#barra-lateral > a > .subdiv {
+    width: 100%;
+    height: auto;
+}
+
+#barra-lateral >  a {
+    width: 100%;
+    height: auto;
+    text-decoration: none;
+    color: black;
+    margin-top: 5%;
+    padding-left: 3%;
+    display: block;
+
+}
+
+#barra-lateral > a > .subdiv > label {
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+
+#barra-lateral > a > .subdiv > span {
+    position: relative;
+    width: auto;
+    height: auto;
+    top: 0.2rem;
+    cursor: pointer;
+} 
+
+.content {
+    position: fixed;
+    width: 75%;
+    height: 100%;
+    left: 25%;
+    
+}
